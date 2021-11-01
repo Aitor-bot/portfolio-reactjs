@@ -2,6 +2,7 @@ import React from 'react';
 import Avatar from './components/Avatar'
 import data from './data.js'
 
+
 class App extends React.Component {
   constructor()
   {
@@ -19,7 +20,6 @@ class App extends React.Component {
   render(){
   return (
     <div className="App">
-      
     <Avatar
     width={this.state.avatarWidth}
     height={this.state.avatarHeight}
