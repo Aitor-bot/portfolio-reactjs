@@ -25,7 +25,8 @@ class App extends React.Component {
       lookGitlab: data.lookGitlab,
       cvLink : data.cvLink,
       downloadCV : data.downloadCV,
-      avatar : data.avatar
+      avatar : data.avatar,
+      gitlabLink : data.gitlabLink
 
     } 
   }
@@ -48,6 +49,7 @@ class App extends React.Component {
     cvLink = {this.state.cvLink}
     downloadCV = {this.state.downloadCV}
     avatar = {this.state.avatar}
+    gitlabLink = {this.state.gitlabLink}
 
     />
     
