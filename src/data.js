@@ -8,5 +8,14 @@ export default
     "projectsM": "Proyectos",
     "studiesM": "Estudios",
     "experienceM": "Experiencia laboral",
-    "abilitiesM": "Habilidades"
+    "abilitiesM": "Habilidades",
+    "titleDescription": "Hola, soy Aitor",
+    "subDescription": "Amante de la programación",
+    "description": "Tengo 23 años, soy de Zarautz y estoy terminando Desarrollo de Aplicaciones Web en AEG.",
+    "lookGitlab": "Mira mis proyectos",
+    "gitlabLink":"https://gitlab.com/aitor.palleja",
+    "downloadCV": "Descargar CV",
+    "cvLink": "./CV_AitorPalleja.pdf"
+
 };
+
