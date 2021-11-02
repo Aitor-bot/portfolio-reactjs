@@ -14,8 +14,11 @@ export default class Description extends React.Component{
           {this.props.titleDescription}<br/>
             <p className="hidden lg:inline-block" />{this.props.subDescription}
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-1 leading-relaxed">
           {this.props.description}
+          </p>
+          <p className="mb-4 leading-relaxed">
+          {this.props.contact}
           </p>
           <div className="flex justify-center">
             <a

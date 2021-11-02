@@ -12,7 +12,7 @@ export default class Experience extends React.Component{
         <div class="container px-10 py-10 mx-auto text-center">
           <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-6">
           <BriefcaseIcon class="w-8 inline-block mb-3"/> 
-          &nbsp; {this.props.experienceTitle} 
+          &nbsp;{this.props.experienceTitle} 
           </h1>
           <div class="">
               <div class="">

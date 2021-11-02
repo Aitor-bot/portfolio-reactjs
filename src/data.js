@@ -5,6 +5,7 @@ export default
     "fullName": "Aitor Palleja",
     "phone": "606241920",
     "avatar": "https://www.bootdey.com/img/Content/avatar/avatar7.png",
+    "contact": "Contacto: aitor.palleja@gmail.com",
     
     //Menu
     "projectsM": "Proyectos",
@@ -39,5 +40,17 @@ export default
     "nameSEIM": "Centro de estudios de informática S.E.I.M.",
     "dateSEIM": "2017-2019",
     "imageSEIM": "https://scontent.fvit1-1.fna.fbcdn.net/v/t1.6435-9/85149745_110948743812928_7505654941185212416_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=4lkl0GrVkrEAX9Gze4a&_nc_ht=scontent.fvit1-1.fna&oh=480262a20b4e7c0a6fc7480bdaa7d795&oe=61A62B6B",
+
+    //Tech
+    "techTitle": "Habilidades y Tecnologías",
+    "javascript": "Javascript",
+    "javascriptPercent": "50",
+    "react": "React",
+    "reactPercent": "20",
+    "node": "Node",
+    "nodePercent": "20",
+    "mongo": "Mongo",
+    "mongoPercent": "50",
+
 };
 

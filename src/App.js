@@ -6,6 +6,7 @@ import Description from './components/Description';
 import { AiFillGitlab } from 'react-icons/fa';
 import Experience from './components/Experience';
 import Studies from './components/Studies';
+import Abilities from './components/Abilities';
 
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
       titleDescription: data.titleDescription,
       subDescription: data.subDescription, 
       description: data.description,
+      contact: data.contact,
       lookGitlab: data.lookGitlab,
       cvLink : data.cvLink,
       downloadCV : data.downloadCV,
@@ -46,13 +48,23 @@ class App extends React.Component {
       nameSEIM : data.nameSEIM,
       dateSEIM : data.dateSEIM,
       imageSEIM : data.imageSEIM,
+
+      techTitle : data.techTitle,
+      javascript : data.javascript,
+      javascriptPercent : data.javascriptPercent,
+      react : data.react,
+      reactPercent : data.reactPercent,
+      node : data.node,
+      nodePercent : data.nodePercent,
+      mongo : data.mongo,
+      mongoPercent : data.mongoPercent,
     } 
     
   }
 
   render(){
   return (
-    <main className="text-gray-400 bg-gray-900 body-font"> 
+    <main className="text-gray-400 bg-gray-900"> 
     <Menu 
     fullName = {this.state.fullNameMenu}
     experienceM = {this.state.experienceMenu}
@@ -64,6 +76,7 @@ class App extends React.Component {
     titleDescription = {this.state.titleDescription}
     subDescription = {this.state.subDescription}
     description = {this.state.description}
+    contact = {this.state.contact}
     lookGitlab = {this.state.lookGitlab}
     cvLink = {this.state.cvLink}
     downloadCV = {this.state.downloadCV}
@@ -88,8 +101,19 @@ class App extends React.Component {
     nameSEIM = {this.state.nameSEIM}
     dateSEIM = {this.state.dateSEIM}
     imageSEIM = {this.state.imageSEIM}
-    
-    
+    />
+
+    <Abilities
+    techTitle = {this.state.techTitle}
+    javascript = {this.state.javascript}
+    javascriptPercent = {this.state.javascriptPercent}
+    react = {this.state.react}
+    reactPercent = {this.state.reactPercent}
+    node = {this.state.node}
+    nodePercent = {this.state.nodePercent}
+    mongo = {this.state.mongo}
+    mongoPercent = {this.state.mongoPercent}
+
     />
 
     </main>
