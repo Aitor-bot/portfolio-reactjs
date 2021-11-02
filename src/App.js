@@ -4,6 +4,7 @@ import data from './data.js'
 import Menu from './components/Menu';
 import Description from './components/Description';
 import { AiFillGitlab } from 'react-icons/fa';
+import Experience from './components/Experience';
 
 
 class App extends React.Component {
@@ -26,8 +27,13 @@ class App extends React.Component {
       cvLink : data.cvLink,
       downloadCV : data.downloadCV,
       avatar : data.avatar,
-      gitlabLink : data.gitlabLink
+      gitlabLink : data.gitlabLink,
 
+      experienceTitle : data.experienceTitle,
+      jobName : data.jobName,
+      company : data.company,
+      doneWork : data.doneWork,
+      jobAvatar : data.jobAvatar
     } 
   }
 
@@ -50,8 +56,14 @@ class App extends React.Component {
     downloadCV = {this.state.downloadCV}
     avatar = {this.state.avatar}
     gitlabLink = {this.state.gitlabLink}
-
     />
+    <Experience
+    experienceTitle = {this.state.experienceTitle}
+    jobName = {this.state.jobName}
+    company = {this.state.company}
+    doneWork = {this.state.doneWork}
+    jobAvatar = {this.state.jobAvatar}/>
+
     
     </main>
 
