@@ -35,6 +35,7 @@ class App extends React.Component {
       experienceTitle : data.experienceTitle,
       jobName : data.jobName,
       company : data.company,
+      companyData : data.companyData,
       doneWork : data.doneWork,
       jobAvatar : data.jobAvatar,
 
@@ -87,6 +88,7 @@ class App extends React.Component {
     experienceTitle = {this.state.experienceTitle}
     jobName = {this.state.jobName}
     company = {this.state.company}
+    companyData = {this.state.companyData}
     doneWork = {this.state.doneWork}
     jobAvatar = {this.state.jobAvatar}/>
 

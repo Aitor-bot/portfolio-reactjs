@@ -24,8 +24,9 @@ export default
 
     //Experience
     "experienceTitle": "Experiencia Laboral",
-    "jobName": "Administrador de sistemas Informáticos (03/2019 – 06/2019)",
+    "jobName": "Administrador de sistemas Informáticos",
     "company": "Etxe-Tar S.A.",
+    "companyData": "03/2019 – 06/2019",
     "doneWork": "Mantenimiento, monitorización y evolución de infraestructura hardware, software, servidores virtuales y tráfico de red.",
     "jobAvatar": "https://www.sariki.es/wp-content/uploads/2019/10/logo-etxe-tar.jpg",
     

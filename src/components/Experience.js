@@ -25,8 +25,10 @@ export default class Experience extends React.Component{
                       {this.props.company} 
                       </span>
                     </span>
-                  <p class="leading-relaxed mb-6">
+                  <p class="leading-relaxed mb">
                   {this.props.doneWork}</p>
+                  <p class="leading-relaxed mb-6">
+                  {this.props.companyData}</p>
                   <div class="inline-flex items-center">
                     <img
                       src={this.props.jobAvatar}
