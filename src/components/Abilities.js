@@ -11,8 +11,8 @@ export default class Abilities extends React.Component{
         <section id="abilities">
       <div class="container px-5 py-10 mx-auto">
         <div class="text-center mb-10">
-          <DesktopComputerIcon class="w-10 inline-block mb-4" />
           <h1 class="sm:text-4xl text-3xl font-medium title-font text-white">
+          <DesktopComputerIcon class="w-10 inline-block mb-4" /> &nbsp;
           {this.props.techTitle}
           </h1>
         </div>
