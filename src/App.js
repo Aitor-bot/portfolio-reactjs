@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import Description from './components/Description';
 import { AiFillGitlab } from 'react-icons/fa';
 import Experience from './components/Experience';
+import Studies from './components/Studies';
 
 
 class App extends React.Component {
@@ -33,8 +34,20 @@ class App extends React.Component {
       jobName : data.jobName,
       company : data.company,
       doneWork : data.doneWork,
-      jobAvatar : data.jobAvatar
+      jobAvatar : data.jobAvatar,
+
+      studies : data.studies,
+      AEGTitle : data.AEGTitle,
+      nameAEG : data.nameAEG,
+      dateAEG : data.dateAEG,
+      imageAEG : data.imageAEG,
+
+      titleSEIM : data.titleSEIM,
+      nameSEIM : data.nameSEIM,
+      dateSEIM : data.dateSEIM,
+      imageSEIM : data.imageSEIM,
     } 
+    
   }
 
   render(){
@@ -64,7 +77,21 @@ class App extends React.Component {
     doneWork = {this.state.doneWork}
     jobAvatar = {this.state.jobAvatar}/>
 
+    <Studies
+    studies = {this.state.studies}
+    AEGTitle = {this.state.AEGTitle}
+    nameAEG = {this.state.nameAEG}
+    dateAEG = {this.state.dateAEG}
+    imageAEG = {this.state.imageAEG}
+
+    titleSEIM = {this.state.titleSEIM}
+    nameSEIM = {this.state.nameSEIM}
+    dateSEIM = {this.state.dateSEIM}
+    imageSEIM = {this.state.imageSEIM}
     
+    
+    />
+
     </main>
 
     

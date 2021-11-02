@@ -10,9 +10,9 @@ export default class Experience extends React.Component{
     return(
         <section id="experience">
         <div class="container px-10 py-10 mx-auto text-center">
-          <BriefcaseIcon class="w-8 inline-block mb-4" />
-          <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
-          {this.props.experienceTitle}
+          <h1 class="sm:text-4xl text-3xl font-medium title-font text-white mb-6">
+          <BriefcaseIcon class="w-8 inline-block mb-3"/> 
+          &nbsp; {this.props.experienceTitle} 
           </h1>
           <div class="">
               <div class="">
