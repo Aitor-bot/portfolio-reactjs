@@ -15,7 +15,6 @@ export default class Description extends React.Component{
             <p className="hidden lg:inline-block" />{this.props.subDescription}
           </h1>
           <p className="mb-1 leading-relaxed">
-          {this.props.description}
           </p>
           <p className="mb-4 leading-relaxed">
           {this.props.contact}
@@ -34,11 +33,7 @@ export default class Description extends React.Component{
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="Avatar"
-            src={this.props.avatar}
-          />
+
         </div>
       </div>
     </section>

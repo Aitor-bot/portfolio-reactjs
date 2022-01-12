@@ -1,5 +1,4 @@
 import React from 'react';
-import Avatar from './components/Avatar'
 import data from './data.js'
 import Menu from './components/Menu';
 import Description from './components/Description';
