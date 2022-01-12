@@ -6,6 +6,7 @@ import { AiFillGitlab } from 'react-icons/fa';
 import Experience from './components/Experience';
 import Studies from './components/Studies';
 import Abilities from './components/Abilities';
+import Projects from './components/Projects.js';
 
 
 class App extends React.Component {
@@ -116,6 +117,8 @@ class App extends React.Component {
     mongoPercent = {this.state.mongoPercent}
 
     />
+
+    <Projects></Projects>
 
     </main>
 

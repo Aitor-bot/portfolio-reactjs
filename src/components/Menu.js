@@ -24,6 +24,11 @@ export default class Menu extends React.Component{
             <a href="#abilities" className="mr-5 hover:text-white">
             {this.props.abilitiesM}
             </a>
+            <a href="#projects" className="mr-5 hover:text-white">
+            Proyectos
+            </a>
+
+
             
             
         </nav>
