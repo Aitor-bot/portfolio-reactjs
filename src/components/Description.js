@@ -1,9 +1,6 @@
 import React from 'react'
 
 export default class Description extends React.Component{
-    constructor(props){
-        super(props);
-    }
 
     render() {
     return(
@@ -21,7 +18,7 @@ export default class Description extends React.Component{
           </p>
           <div className="flex justify-center">
             <a
-              href={this.props.gitlabLink} target="_blank"
+              href={this.props.gitlabLink} target="_blank" rel="noreferrer"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               {this.props.lookGitlab}
             </a>

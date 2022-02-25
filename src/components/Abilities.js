@@ -2,9 +2,6 @@ import React from 'react'
 import { DesktopComputerIcon} from "@heroicons/react/solid";
 
 export default class Abilities extends React.Component{
-    constructor(props){
-        super(props);
-    }
 
     render() {
     return(

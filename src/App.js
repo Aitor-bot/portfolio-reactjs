@@ -2,7 +2,6 @@ import React from 'react';
 import data from './data.js'
 import Menu from './components/Menu';
 import Description from './components/Description';
-import { AiFillGitlab } from 'react-icons/fa';
 import Experience from './components/Experience';
 import Studies from './components/Studies';
 import Abilities from './components/Abilities';

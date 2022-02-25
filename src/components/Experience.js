@@ -2,9 +2,6 @@ import React from 'react'
 import {BriefcaseIcon} from "@heroicons/react/solid";
 
 export default class Experience extends React.Component{
-    constructor(props){
-        super(props);
-    }
 
     render() {
     return(
@@ -31,7 +28,7 @@ export default class Experience extends React.Component{
                   {this.props.companyData}</p>
                   <div class="inline-flex items-center">
                     <img
-                      src={this.props.jobAvatar}
+                      src={this.props.jobAvatar} alt='etxe-tar'
                       class="w-16 rounded-full object-cover object-center"
                     />
                   </div>
