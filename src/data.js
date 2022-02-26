@@ -1,4 +1,4 @@
-export default 
+export const data = 
 {
    "name": "Aitor",
    "surname": "Palleja",
@@ -76,3 +76,5 @@ export const projects = [
      link: "./galeria.mp4",
    },
  ];
+
+ export default data;
