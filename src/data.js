@@ -75,6 +75,12 @@ export const projects = [
      image: "https://brandemia.org/sites/default/files/sites/default/files/icono_netflix_nuevo.jpg",
      link: "./galeria.mp4",
    },
+   {
+    title: "Galería de películas",
+    subtitle: "React Native + TMDB API",
+    image: "https://brandemia.org/sites/default/files/sites/default/files/icono_netflix_nuevo.jpg",
+    link: "./galeria.mp4",
+  },
  ];
 
  export default data;
