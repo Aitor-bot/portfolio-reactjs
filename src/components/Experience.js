@@ -11,8 +11,28 @@ export default class Experience extends React.Component {
             <BriefcaseIcon class="w-8 inline-block mb-3" />
             &nbsp;{this.props.experienceTitle}
           </h1>
-          <div class="">
-            <div class="">
+          
+            
+              <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-white">
+                    Desarrollador web [Pŕacticas]
+                  </span>
+                  <span class="text-white-500 text ">
+                  WEGETIT/
+                  </span>
+                </span>
+                <p class="leading-relaxed mb">
+                  Desarrollo de aplicaciones web con React y Laravel.</p>
+                <p class="leading-relaxed mb-6">
+                  03/2022 - 06/2022</p>
+                <div class="inline-flex items-center">
+                  <img
+                    src="https://media-exp1.licdn.com/dms/image/C560BAQGSMZIdV5omCg/company-logo_200_200/0/1593773320933?e=2147483647&v=beta&t=izMYBQLmgSxq0Jq4eXJySgXlkqIqx5UNaK-lw091E1s" alt='etxe-tar'
+                    class="w-16 rounded-full object-cover object-center"
+                  />
+                </div>
+              </div>
               <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <span class="flex-grow flex flex-col pl-4">
                   <span class="title-font font-medium text-white">
@@ -34,8 +54,6 @@ export default class Experience extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
       </section>
     )
   }

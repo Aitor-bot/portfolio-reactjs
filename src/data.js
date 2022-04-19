@@ -17,8 +17,8 @@ export const data =
    "titleDescription": "Hola, soy Aitor. ",
    "subDescription": "Amante de la programación y de las nuevas tecnologías.",
    "description": "Tengo 23 años, soy de Zarautz y estoy terminando Desarrollo de Aplicaciones Web en AEG.",
-   "lookGitlab": "Gitlab",
-   "gitlabLink":"https://gitlab.com/aitor.palleja",
+   "lookGitlab": "Github",
+   "gitlabLink":"https://github.com/Aitor-bot",
    "downloadCV": "Descargar CV",
    "cvLink": "./CV_AitorPalleja.pdf",
  
