@@ -40,7 +40,7 @@ export const data =
    "titleSEIM": "Técnico Superior en Administración de Sistemas Informáticos en Red",
    "nameSEIM": "Centro de estudios de informática S.E.I.M.",
    "dateSEIM": "2017-2019",
-   "imageSEIM": "https://scontent-ecv1-1.xx.fbcdn.net/v/t1.6435-9/85149745_110948743812928_7505654941185212416_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=8C-P82ctV04AX9zZQoB&_nc_ht=scontent-ecv1-1.xx&oh=00_AT-7efOocXk9_H-qxWBd8V1fwhUnUAEJVv5TPZhclp9KCg&oe=6205176B",
+   "imageSEIM": "https://scontent.fvit1-1.fna.fbcdn.net/v/t1.6435-9/85149745_110948743812928_7505654941185212416_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=SxLCNt7jRa4AX9OtcGm&_nc_ht=scontent.fvit1-1.fna&oh=00_AT_b8zxETYxvn_iTRtTVX5xwTH3FSxuGcdrIKsAKDc_3gg&oe=6283A76B",
  
    //Tech
    "techTitle": "Habilidades y Tecnologías",
