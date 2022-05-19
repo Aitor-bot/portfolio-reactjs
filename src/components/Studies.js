@@ -1,5 +1,6 @@
 import React from 'react'
 import { BookOpenIcon } from "@heroicons/react/solid";
+import logo from "../components/seim.jpeg"
 
 export default class Studies extends React.Component {
   render() {
@@ -44,7 +45,7 @@ export default class Studies extends React.Component {
                 <p class="leading-relaxed mb-3 text-gray-500">{this.props.dateSEIM}</p>
                 <div class="inline-flex items-center">
                   <img
-                    src={this.props.imageSEIM}
+                    src={logo}
                     alt="seimimg"
                     class="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
