@@ -16,7 +16,7 @@ export default class Experience extends React.Component {
               <div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <span class="flex-grow flex flex-col pl-4">
                   <span class="title-font font-medium text-white">
-                    Desarrollador web [Pŕacticas]
+                    Desarrollador web
                   </span>
                   <span class="text-white-500 text ">
                   WEGETIT/
